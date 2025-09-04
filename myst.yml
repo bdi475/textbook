@@ -15,6 +15,9 @@ project:
     - file: content/git-and-github.md
     - file: content/intro-to-python.md
     - file: content/data-types-variables-operators-conditionals.md
+    - file: content/collections-and-loops.md
+    - file: content/strings.md
+    - file: content/functions.md
   # title:
   # description:
   # keywords: []
@@ -26,4 +29,4 @@ site:
   template: book-theme
   options:
     logo: images/site_logo.png
-    # favicon: favicon.ico
+    favicon: images/favicon/favicon.ico

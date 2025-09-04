@@ -1,4 +1,4 @@
-# Python Data Types, Variables, Operators, and Conditionals
+# Data Types, Variables, Operators, and Conditionals
 
 In this page, we will explore the fundamental concepts of data types, variables, operators, and conditionals in Python.
 
