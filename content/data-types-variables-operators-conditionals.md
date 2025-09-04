@@ -246,6 +246,4 @@ Notice how the two `print` statements inside the `if` are indented by **4 spaces
 
 - Most code editors (e.g., VS Code, PyCharm, Jupyter) can automatically insert 4 spaces when you press the **Tab** key.
 
-### Key Takeaway
-
 In Python, **indentation is not just style. It's syntax**. Correct indentation is required for your code to run.

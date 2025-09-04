@@ -142,3 +142,24 @@ We are trained to perform the arithmetic operations in the predefined order of o
 Python executes your program in a similar fashion. It evaluates your expressions from left to right (except when you're performing an assignment operation, which we will discuss later). The operator precedence also emulates the mathematical order of operations, except that there are some operators that only exist in Python.
 
 For a summary of the operator precedence in Python, refer to the **Operator Precedence** section of https://docs.python.org/3/reference/expressions.html.
+
+---
+
+## Python Comments
+
+Python comments are lines in your code that are not executed. They are used to explain and clarify the code for anyone reading it (including your future self). In Python, comments start with the `#` symbol.
+
+```python
+# This is a single-line comment
+print("Hello, World!")
+```
+
+```python
+print("Hello, World!")  # This is another comment
+```
+
+```python
+# This is a multi-line comment
+# It spans multiple lines
+print("Hello, World!")
+```
