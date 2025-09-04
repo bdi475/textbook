@@ -99,6 +99,15 @@ print("The new year is:", current_year)
 
 Operators are special symbols that perform operations on variables and values.
 
+### Assignment Operator
+
+The assignment operator (`=`) is used to assign a value to a variable.
+
+```python
+x = 5  # Assigns the value 5 to the variable x
+y = 10 # Assigns the value 10 to the variable y
+```
+
 ### Arithmetic Operators
 
 These are used to perform mathematical operations.

@@ -60,6 +60,15 @@ sublist = numbers[1:4]      # [2, 3, 4]
 
 Note that the starting index is inclusive, while the ending index is exclusive.
 
+### Length of a List
+
+You can find out how many items are in a list using the `len()` function.
+
+```python
+fruits = ["apple", "banana", "cherry"]
+length = len(fruits)  # 3
+```
+
 ### Tuples
 
 Tuples are similar to lists, but they are immutable, meaning their elements cannot be changed after creation. Tuples are defined using parentheses `()`.
