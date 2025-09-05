@@ -1,4 +1,6 @@
-# BDI 475
+# BDI 475 - Introduction to Data Analytics Applications in Business
+
+University of Illinois Urbana-Champaign
 
 ## Learning Objectives
 

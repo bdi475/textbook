@@ -12,6 +12,7 @@ project:
   github: bdi475/textbook
   toc:
     - file: content/index.md
+    - file: content/jupyter-notebooks.md
     - file: content/git-and-github.md
     - file: content/intro-to-python.md
     - file: content/data-types-variables-operators-conditionals.md
