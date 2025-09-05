@@ -2,11 +2,11 @@
 
 Collections are data structures that can hold multiple items, while loops are used to iterate over these collections. In this section, we will explore lists and dictionaries as examples of collections, and we will learn how to use loops to work with them.
 
-## Lists
+## 📝 Lists
 
 Lists are a fundamental data structure in Python, allowing you to store multiple items in a single variable. Loops are used to iterate over these items, enabling you to perform operations on each element in the list.
 
-### Creating Lists
+### 🆕 Creating Lists
 
 You can create a list by placing items inside square brackets `[]`, separated by commas. Lists can contain items of different data types, including numbers, strings, and even other lists.
 
@@ -24,7 +24,13 @@ mixed = [1, "hello", 3.14, True]
 nested = [[1, 2], [3, 4], [5, 6]]
 ```
 
-### Accessing List Elements
+You can check the type of a list using the `type()` function:
+
+```python
+print(type([1, 2, 3]))  # Output: <class 'list'>
+```
+
+### 📚 Accessing List Elements
 
 ```python
 # Accessing elements by index
@@ -40,7 +46,7 @@ last_fruit = fruits[-1]     # "cherry"
 sublist = numbers[1:4]      # [2, 3, 4]
 ```
 
-### Modifying Lists
+### ✏️ Modifying Lists
 
 ```python
 numbers[0] = 10         # numbers is now [10, 2, 3, 4, 5]
@@ -49,7 +55,7 @@ mixed.remove(3.14)      # mixed is now [1, "hello", True]
 nested[1][0] = 30       # nested is now [[1, 2], [30, 4], [5, 6]]
 ```
 
-### Slicing Lists
+### ✂️ Slicing Lists
 
 You can extract a portion of a list using slicing. Slicing allows you to create a new list that contains a subset of the elements from the original list.
 
@@ -60,7 +66,7 @@ sublist = numbers[1:4]      # [2, 3, 4]
 
 Note that the starting index is inclusive, while the ending index is exclusive.
 
-### Length of a List
+### 📏 Length of a List
 
 You can find out how many items are in a list using the `len()` function.
 
@@ -69,7 +75,7 @@ fruits = ["apple", "banana", "cherry"]
 length = len(fruits)  # 3
 ```
 
-### Tuples
+### 🔒 Tuples
 
 Tuples are similar to lists, but they are immutable, meaning their elements cannot be changed after creation. Tuples are defined using parentheses `()`.
 
@@ -89,13 +95,19 @@ The output of the above code will be:
 x: 10, y: 20
 ```
 
+You can check the type of a tuple using the `type()` function:
+
+```python
+print(type((1, 2, 3)))  # Output: <class 'tuple'>
+```
+
 Tuples are often used to represent fixed collections of items, such as coordinates or RGB color values.
 
-## Loops
+## 🔁 Loops
 
 Loops are used to execute a block of code repeatedly. In Python, there are two main types of loops: `for` loops and `while` loops.
 
-### For Loops
+### ➡️ For Loops
 
 You can use `for` loops to iterate over the elements of a list. This allows you to perform operations on each item in the list.
 
@@ -136,7 +148,98 @@ Here's the output of the above code:
 10
 ```
 
-### While Loops
+#### 🎯 Example: Counting Items in a List
+
+```python
+fruits = ["Apple", "Banana", "Mango", "Orange",
+          "Apple", "Grapes", "Mango", "Apple",
+          "Banana", "Apple", "Orange", "Apple",
+          "Mango", "Peach", "Apple", "Apple",
+          "Banana", "Apple", "Apple", "Mango",
+          "Orange", "Apple", "Apple", "Banana",
+          "Apple", "Apple", "Grapes", "Apple",
+          "Peach", "Apple"]
+num_apple = 0
+
+# Counting the number of "Apple" in the list
+for fruit in fruits:
+    if fruit == "Apple":
+        num_apple += 1
+
+print(f"You have {num_apple} apples.") # Output: You have 15 apples.
+```
+
+In the above code, we iterate through the list of fruits and increment the `num_apple` counter each time we encounter "Apple". Finally, we print the total count of apples.
+
+The `+=` operator is a shorthand for incrementing a variable by a certain value. For example, `num_apple += 1` is equivalent to `num_apple = num_apple + 1`. Each time we find "Apple" in the list, we increase the count by 1 using this shorthand increment operator.
+
+#### 🎯 Example: Summing Values in a List
+
+```python
+hours_worked = [8, 7, 9, 6, 8]
+total_hours = 0
+
+# YOUR CODE BEGINS
+for v in hours_worked:
+    total_hours += v
+# YOUR CODE ENDS
+
+print(f"Total hours worked: {total_hours}") # Output: Total hours worked: 38
+```
+
+In the above code, we iterate through the list of hours worked and add each value to the `total_hours` variable. Finally, we print the total hours worked.
+
+#### 🎯 Example: Summing Odd Numbers
+
+```python
+nums = [1, 2, 3, 4, 5, 6, 7, 8]
+odd_sum = 0
+
+# YOUR CODE BEGINS
+for num in nums:
+    if num % 2 != 0:
+        odd_sum += num
+# YOUR CODE ENDS
+
+print(f"Sum of odd numbers: {odd_sum}") # Output: Sum of odd numbers: 16
+```
+
+In the above code, we iterate through the list of numbers and check if each number is odd. If it is, we add it to the `odd_sum` variable. Finally, we print the total sum of odd numbers.
+
+#### 🎯 Example: Average of Even Numbers and Odd Numbers
+
+```python
+nums = [15, 8, 7, 5, 15, 72, -20, -66, 9, -4, -11, 21, 19]
+
+# YOUR CODE BEGINS
+even_sum = 0
+even_count = 0
+odd_sum = 0
+odd_count = 0
+
+for n in nums:
+    if n % 2 == 0:
+        even_sum += n
+        even_count += 1
+    else:
+        odd_sum += n
+        odd_count += 1
+
+even_avg = even_sum / even_count
+odd_avg = odd_sum / odd_count
+# YOUR CODE ENDS
+
+print(f'Average of even numbers is {even_avg}')
+print(f'Average of odd numbers is {odd_avg}')
+
+# Output:
+# Average of even numbers is -2.0
+# Average of odd numbers is 10.0
+```
+
+In the above code, we iterate through the list of numbers and separate them into even and odd categories. We maintain separate sums and counts for both even and odd numbers. After the loop, we calculate the average for each category by dividing the sum by the count. Finally, we print the averages of even and odd numbers.
+
+### 🔄 While Loops
 
 A `while` loop continues to execute as long as a specified condition is `True`. Be careful to ensure that the condition will eventually become `False`, or you may create an infinite loop.
 
@@ -162,7 +265,7 @@ Here's the output of the above code:
 An infinite loop occurs when the loop's condition never becomes `False`. This can cause your program to run indefinitely, which may lead to crashes or unresponsiveness. Always ensure that the loop's condition will eventually be met by modifying variables within the loop.
 :::
 
-### Looping with `range()`
+### 🔢 Looping with `range()`
 
 The `range()` function generates a sequence of numbers, which is often used in `for` loops to iterate a specific number of times.
 
@@ -188,7 +291,7 @@ The `i` variable in the `for` loop acts as a loop counter that takes on each val
 `i` is commonly used as a convention, but you could use other names like `index`, `num`, or `item` depending on the context of your loop. The name of the variable does not affect the functionality of the loop; it simply represents the current item in the iteration. It is a temporary variable that exists only within the scope of the loop.
 :::
 
-### Nested Loops
+### ♻️ Nested Loops
 
 You can also use nested loops, which are loops inside other loops. This is useful for working with multi-dimensional lists.
 
@@ -212,7 +315,7 @@ Here's the output of the above code:
 6
 ```
 
-## Dictionaries
+## 📖 Dictionaries
 
 Dictionaries are another important collection type in Python. They store data in key-value pairs, allowing you to quickly retrieve values based on their associated keys.
 
@@ -220,7 +323,7 @@ Dictionaries are another important collection type in Python. They store data in
 Dictionaries are named after real-world dictionaries, where you look up a word (the key) to find its definition (the value). Similarly, in a Python dictionary, you use a key to access its corresponding value.
 :::
 
-### Creating Dictionaries
+### 🆕 Creating Dictionaries
 
 You can create a dictionary by placing key-value pairs inside curly braces `{}`, separated by commas. Each key is separated from its value by a colon `:`.
 
@@ -232,7 +335,13 @@ person = {
 }
 ```
 
-### Accessing Dictionary Values
+You can check the type of a dictionary using the `type()` function:
+
+```python
+print(type({"key": "value"}))  # Output: <class 'dict'>
+```
+
+### 🎯 Accessing Dictionary Values
 
 To access a value in a dictionary, you use its key inside square brackets `[]`.
 
@@ -246,7 +355,7 @@ print(age)  # Output: 30
 print(city) # Output: Champaign
 ```
 
-### Modifying Dictionaries
+### ✏️ Modifying Dictionaries
 
 You can add new key-value pairs or update existing ones by assigning a value to a key.
 
@@ -255,7 +364,7 @@ person["email"] = "john@example.com"  # Add new key-value pair
 person["age"] = 31                    # Update existing value
 ```
 
-### Nested Dictionaries
+### 🧩 Nested Dictionaries
 
 Dictionaries can also contain other dictionaries, allowing you to create complex data structures.
 
@@ -272,7 +381,7 @@ people = {
 }
 ```
 
-### Looping Through Dictionaries
+### 🔎 Looping Through Dictionaries
 
 You can use a `for` loop to iterate over the keys in a dictionary. You can then use these keys to access the corresponding values.
 
@@ -305,7 +414,7 @@ person1: John is 30 years old.
 person2: Jane is 25 years old.
 ```
 
-## Mixing Collections and Loops
+## 🥣 Mixing Collections and Loops
 
 You can combine lists and dictionaries to create more complex data structures. For example, you can have a list of dictionaries, where each dictionary represents a person.
 
@@ -360,3 +469,48 @@ Berries:
  - blueberry
  - raspberry
 ```
+
+#### 🎯 Example: Calculating Total Salary of Engineering Employees
+
+```python
+employees = [
+    {
+        "name": "Alice",
+        "department": "Engineering",
+        "salary": 95000
+    },
+    {
+        "name": "Bob",
+        "department": "Marketing",
+        "salary": 72000
+    },
+    {
+        "name": "Charlie",
+        "department": "Engineering",
+        "salary": 105000
+    },
+    {
+        "name": "Diana",
+        "department": "HR",
+        "salary": 68000
+    },
+    {
+        "name": "Ethan",
+        "department": "Engineering",
+        "salary": 99000
+    }
+]
+engineering_total_salary = 0
+
+# YOUR CODE BEGINS
+for e in employees:
+    if e["department"] == "Engineering":
+        engineering_total_salary += e["salary"]
+# YOUR CODE ENDS
+
+print(f"Engineering employees' total salary is {engineering_total_salary}!") # Output: Engineering employees' total salary is 299000!
+```
+
+In the above code, we iterate through the list of employees and check if each employee belongs to the "Engineering" department. If they do, we add their salary to the `engineering_total_salary` variable. Finally, we print the total salary of all engineering employees.
+
+The `if` statement inside the loop allows us to filter the employees based on their department, ensuring that we only sum the salaries of those in the "Engineering" department. It is indented to be part of the loop, meaning it is executed for each employee in the list. It checks the condition for each employee and only adds their salary to the total if they meet the criteria.

@@ -17,6 +17,7 @@ project:
     - file: content/data-types-variables-operators-conditionals.md
     - file: content/collections-and-loops.md
     - file: content/strings.md
+    - file: content/assignments/exercise-02-collections-loops-functions.ipynb
     - file: content/functions.md
   # title:
   # description:
