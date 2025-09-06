@@ -12,14 +12,18 @@ project:
   github: bdi475/textbook
   toc:
     - file: content/index.md
-    - file: content/jupyter-notebooks.md
-    - file: content/git-and-github.md
+    - title: Tools Used in This Course
+      children:
+        - file: content/jupyter-notebooks.md
+        - file: content/git-and-github.md
     - file: content/intro-to-python.md
     - file: content/data-types-variables-operators-conditionals.md
     - file: content/collections-and-loops.md
     - file: content/strings.md
-    - file: content/assignments/exercise-02-collections-loops-functions.ipynb
     - file: content/functions.md
+    - title: Assignments
+      children:
+        - file: content/assignments/exercise-02-collections-loops-functions.ipynb
   # title:
   # description:
   # keywords: []
@@ -32,3 +36,4 @@ site:
   options:
     logo: images/site_logo.png
     favicon: images/favicon/favicon.ico
+    style: media/custom.css

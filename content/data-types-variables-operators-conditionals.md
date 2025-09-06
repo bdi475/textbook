@@ -2,6 +2,8 @@
 
 In this page, we will explore the fundamental concepts of data types, variables, operators, and conditionals in Python.
 
+---
+
 ## 🔢 Python Data Types
 
 In programming, a data type is a classification that specifies which type of value a variable can hold. Let's look at the most common basic data types in Python.
@@ -55,6 +57,8 @@ print(type(is_difficult))
 In Python, even "primitive-looking" values like 5, 3.14, or "hello" are actually objects. So unlike in languages like C, Java, or JavaScript, Python doesn't have true primitives in the sense of raw, low-level values. Instead, everything is an instance of some class.
 :::
 
+---
+
 ## 📦 Variables
 
 A variable is a container for storing a value. You can think of it as a named label for a location in the computer's memory. In Python, you create a variable by assigning a value to it using the equals sign (`=`).
@@ -88,6 +92,8 @@ print("The current year is:", current_year)
 current_year = 2024
 print("The new year is:", current_year)
 ```
+
+---
 
 ## ➕ Operators
 
@@ -163,6 +169,8 @@ print("Can enter the venue:", can_enter)
 is_raining = False
 print("Is it not raining?", not is_raining)
 ```
+
+---
 
 ## 🔀 Conditionals (`if`, `elif`, `else`)
 

@@ -18,6 +18,22 @@ Python is an **interpreted language**, which means that you can run each line of
 Contrary to what many believe, Python is not named after the reptile. Guido van Rossum was a big fan of the British comedy group _Monty Python's Flying Circus_, and he wanted a name that was short, unique, and a little mysterious. This playful origin is a good reminder that programming can be fun and creative!
 :::
 
+### The Zen of Python
+
+The Zen of Python is a collection of guiding principles for writing computer programs in Python. You can access it by typing `import this` in a Python interpreter. Here are a few key principles:
+
+```
+>>> import this
+
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Readability counts.
+...
+```
+
 ## 🌟 Core Features of Python
 
 - **Readable syntax**: Code is easy to write and understand.
