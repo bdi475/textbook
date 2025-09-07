@@ -2,7 +2,9 @@
 
 In this page, we will explore the fundamental concepts of Git and GitHub, two essential tools for modern software development.
 
-## Git as if You're Five 👶
+---
+
+## 🧱 Git as if You're Five 👶
 
 Imagine you have a big box of LEGOs and you're building an awesome castle.
 
@@ -16,9 +18,7 @@ What if you mess up? No problem! You can just go back to your last picture (your
 
 **Git is like a special photo album for your LEGO project. It saves all your steps so you can try new things without worrying and you can always go back if you make a mistake.** It's just for _your_ project, on _your_ table.
 
----
-
-### What is GitHub? (The Big LEGO Club)
+### 🌍 What is GitHub? (The Big LEGO Club)
 
 Now, imagine there's a giant LEGO club where you and all your friends share your creations.
 
@@ -32,21 +32,21 @@ Now, imagine there's a giant LEGO club where you and all your friends share your
 
 **GitHub is the big LEGO club. It's a place online where everyone can share their projects, see what others are building, and work together on the same project without messing up each other's work.**
 
----
-
-### The Simple Difference
-
 - **Git** is the tool that lets you save your progress (like taking pictures of your LEGOs at home).
 - **GitHub** is the place where you share your project with friends so you can all build together (the big LEGO club).
 
-## Why Git is Useful
+---
+
+## 💡 Why Git is Useful
 
 Git is a **version control system** that helps track changes in files and manage collaborative work.
 
 - **Academic settings**: Git is useful for managing research code, class projects, and reproducible workflows. It ensures that changes are documented, experiments can be rolled back, and collaboration with classmates or advisors is seamless.
 - **Real-world settings**: Git is an industry standard in software development, data science, and business analytics. It allows teams to collaborate on projects, maintain clean codebases, and deploy applications with confidence.
 
-## Git vs. GitHub
+---
+
+## 🔄 Git vs. GitHub
 
 Although they are often mentioned together, **Git and GitHub are not the same**:
 
@@ -55,7 +55,9 @@ Although they are often mentioned together, **Git and GitHub are not the same**:
 
 Think of **Git** as the engine, and **GitHub** as a platform built on top of that engine.
 
-## Core Git Concepts for Beginners
+---
+
+## 📚 Core Git Concepts for Beginners
 
 Here are some of the most important concepts to understand when starting with Git:
 
@@ -72,7 +74,9 @@ Here are some of the most important concepts to understand when starting with Gi
 
 These concepts form the foundation of Git workflows. Once you are comfortable with them, you can start collaborating smoothly with others.
 
-## Core Features of Git
+---
+
+## 🛠️ Core Features of Git
 
 Git provides several fundamental features for version control:
 
@@ -81,7 +85,9 @@ Git provides several fundamental features for version control:
 - **Distributed workflow**: Every user has a complete copy of the repository, making collaboration and offline work possible.
 - **Rollback and recovery**: Easily undo mistakes or revert to earlier versions.
 
-## Added Features of GitHub
+---
+
+## ☁️ GitHub Features
 
 GitHub builds on Git by offering:
 
@@ -91,7 +97,9 @@ GitHub builds on Git by offering:
 - **CI/CD integration**: Automate testing, deployment, and workflows.
 - **Community features**: Discover open-source projects, contribute, and build a professional portfolio.
 
-## GitHub Classroom
+---
+
+## 🎓 GitHub Classroom
 
 **GitHub Classroom** is an education-focused extension of GitHub that simplifies assignment distribution and collection:
 
@@ -101,7 +109,9 @@ GitHub builds on Git by offering:
 
 This makes it a powerful tool for teaching coding, data analytics, and reproducible research.
 
-## Why Git and GitHub Matter in Data Analytics
+---
+
+## 📊 Why Git and GitHub Matter in Data Analytics
 
 Data analytics often involves **code, datasets, and collaboration**. Git and GitHub help by:
 

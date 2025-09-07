@@ -199,7 +199,7 @@ else:
 
 ## 📏 Indentation in Python
 
-Unlike many programming languages that use braces `{}` or keywords to mark code blocks, **Python uses indentation**. This means that the amount of whitespace at the beginning of a line is significant and determines the structure of your code.
+**⚠️ Reminder:** Unlike many programming languages that use braces `{}` or keywords to mark code blocks, **Python uses indentation**. This means that the amount of whitespace at the beginning of a line is significant and determines the structure of your code.
 
 ### ❗ Why Indentation Matters
 

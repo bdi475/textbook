@@ -16,6 +16,7 @@ project:
       children:
         - file: content/jupyter-notebooks.md
         - file: content/git-and-github.md
+    - file: content/intro-to-analytics.md
     - file: content/intro-to-python.md
     - file: content/data-types-variables-operators-conditionals.md
     - file: content/collections-and-loops.md
@@ -34,6 +35,6 @@ project:
 site:
   template: book-theme
   options:
-    logo: images/site_logo.png
-    favicon: images/favicon/favicon.ico
+    logo: site_images/site_logo.png
+    favicon: site_images/favicon/favicon.ico
     style: media/custom.css

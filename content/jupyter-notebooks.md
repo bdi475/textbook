@@ -11,7 +11,9 @@ The name "Jupyter" is a combination of "**Ju**lia", "**Py**thon", and "**R**", w
 
 &nbsp;
 
-## Why Use Jupyter Notebooks?
+---
+
+## 🚀 Why Use Jupyter Notebooks?
 
 - **Interactive Coding**: You can write and execute code in small chunks (cells), making it easier to test and debug.
 - **Rich Media**: You can include images, videos, and interactive visualizations alongside your code.
@@ -19,7 +21,9 @@ The name "Jupyter" is a combination of "**Ju**lia", "**Py**thon", and "**R**", w
 - **Reproducibility**: Notebooks can be shared and rerun by others, ensuring that your analyses can be reproduced.
 - **Integration**: Jupyter supports many programming languages, including Python, R, and Julia.
 
-## Installing and Running Jupyter Notebooks
+---
+
+## 💻 Installing and Running Jupyter Notebooks
 
 There are multiple ways to run Jupyter Notebooks:
 
@@ -41,7 +45,9 @@ There are multiple ways to run Jupyter Notebooks:
 4. **Visual Studio Code (VS Code)**: VS Code is a popular code editor that supports Jupyter Notebooks through an extension. You can install the "Jupyter" extension from the VS Code marketplace. More information can be found [here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
 5. **Google Colab**: Google Colab is a free cloud-based service that allows you to run Jupyter Notebooks without any local installation. You can access it at [colab.research.google.com](https://colab.research.google.com/). It provides free access to GPUs and TPUs, making it suitable for machine learning tasks. **However, this may be an inconvenient option for this course, as you will need to upload and download files frequently.**
 
-## Jupyter's Read-Eval-Print Loop (REPL)
+---
+
+## 🔄 Jupyter's Read-Eval-Print Loop (REPL)
 
 ```{image} images/jupyter-repl.jpg
 :alt: Read-Eval-Print Loop (REPL)
@@ -72,6 +78,6 @@ The underlying process for a Jupyter Notebook environment is REPL-based — just
 3. **Python Kernel**: The kernel executes the code, just like the "Eval" step in REPL.
 4. **Output**: The kernel sends the result (`23`) back to JupyterLab, which displays it under the code cell.
 
-### Maintaining State with the Kernel
+### 🧠 Maintaining State with the Kernel
 
 The kernel maintains the state of the notebook, including variables, functions, and imports. This means that you can run code cells in any order, and the state will persist until you restart the kernel or close the notebook.

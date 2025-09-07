@@ -2,6 +2,8 @@
 
 Collections are data structures that can hold multiple items, while loops are used to iterate over these collections. In this section, we will explore lists and dictionaries as examples of collections, and we will learn how to use loops to work with them.
 
+![Collections Cover Image](images/collections-cover.jpg)
+
 ---
 
 ## 📝 Lists

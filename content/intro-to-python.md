@@ -2,6 +2,8 @@
 
 Welcome to the world of Python! Python is a versatile, high-level programming language known for its readability and simple syntax. This makes it an excellent choice for beginners and a powerful tool for experts. In this chapter, we'll cover some of the absolute basics to get you started on your programming journey.
 
+![Python Logo Cover Image](images/intro-to-python-cover.png)
+
 ## 🐣 What is Python?
 
 Python was created by Guido van Rossum and first released in 1991. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than might be used in languages like C++ or Java.
@@ -52,7 +54,7 @@ Readability counts.
 
 ## 🌍 Python Ecosystem
 
-Python’s power comes from its huge ecosystem of libraries and frameworks:
+Python's power comes from its huge ecosystem of libraries and frameworks:
 
 - **Data Science & AI**: NumPy, Pandas, Matplotlib, scikit-learn, TensorFlow, PyTorch.
 - **Web Development**: Django, Flask, FastAPI.
@@ -162,3 +164,69 @@ print("Hello, World!")  # This is another comment
 # It spans multiple lines
 print("Hello, World!")
 ```
+
+---
+
+## ⬜ Whitespace and Indentation
+
+Python uses whitespace (spaces and tabs) to define the structure of the code. Indentation is crucial in Python, as it indicates blocks of code that belong together, such as the body of a function or a loop. We will cover functions and loops in later chapters, but here is a simple example to illustrate the concept of indentation.
+
+```python
+def greet(name):
+    print(f"Hello, {name}!")  # Indented block
+
+greet("Kingfisher") # Output: Hello, Kingfisher!
+```
+
+Incorrect indentation will lead to an `IndentationError`.
+
+```python
+def greet(name):
+print(f"Hello, {name}!")  # This will raise an IndentationError
+
+greet("Kingfisher")
+```
+
+### Ignored Whitespaces in Python
+
+In Python, whitespaces around operators are ignored (though spacing is encouraged for readability). This means that the following lines of code are equivalent:
+
+```python
+x = 5 + 3
+x=5+3
+x = 5 +3
+```
+
+```python
+x = 5 + 3  # Good practice
+x=5+3      # Less readable
+x = 5 +3   # Less readable
+```
+
+**Extra whitespaces inside data structures** (like dictionaries, lists, or tuples) are also ignored by the interpreter. This means you can add spaces or line breaks to improve readability without changing how the code runs.
+
+For example, all of the following dictionary definitions are equivalent:
+
+```python
+my_dict = { "key1": "value1", "key2": "value2" }
+my_dict = {"key1":        "value1",  "key2":"value2"}
+my_dict = {
+    "key1": "value1",
+    "key2": "value2"
+}
+```
+
+Python doesn't care about the spacing between keys, colons, and values — the meaning stays the same.
+
+For best practices on code style, refer to the [PEP 8 - Style Guide for Python Code](https://peps.python.org/pep-0008/). PEP 8 is the de facto code style guide for Python, and it is widely adopted by the Python community.
+
+:::{important} Inside strings, spaces are preserved literally!
+
+The Python interpreter does not ignore spaces inside string literals. This means that the following two strings are different:
+
+```python
+s1 = "illinois rocks"
+s2 = "illinois    rocks"
+```
+
+:::
