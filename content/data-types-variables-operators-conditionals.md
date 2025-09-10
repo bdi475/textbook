@@ -93,6 +93,44 @@ current_year = 2024
 print("The new year is:", current_year)
 ```
 
+### 🆔 Variable Naming Rules
+
+When naming variables in Python, you should follow these rules:
+
+1. Variable names must start with a letter (a-z, A-Z) or an underscore (`_`).
+2. The rest of the name can contain letters, numbers (0-9), or underscores.
+3. Variable names are case-sensitive (`myVar`, `MyVar`, and `MYVAR` are different variables).
+4. You cannot use Python reserved keywords (like `if`, `else`, `while`, etc.) as variable names.
+
+```python
+# Example of valid variable names
+first_name = "Alice"
+age = 30
+is_student = True
+
+# Example of invalid variable names (uncommenting these will cause errors)
+# 1st_name = "Alice"
+# age@ = 30
+# is student = True
+```
+
+**Recommendations for Naming Variables:**
+
+- Use descriptive names that convey the purpose of the variable (e.g., `age`, `total_price`, `is_valid`).
+- Use lowercase letters and separate words with underscores for better readability (e.g., `first_name`, `total_amount`).
+
+For best practices, follow the [PEP 8 style guide](https://peps.python.org/pep-0008/#naming-conventions) for naming conventions.
+
+:::{note} Why does Python use `snake_case` for variable names?
+Python uses `snake_case` (lowercase letters with underscores) for variable names to enhance readability. This convention makes it easier to distinguish between words in a variable name, especially when the name consists of multiple words. For example, `total_price` is more readable than `totalprice` or `TotalPrice`. This style is widely adopted in the Python community and is recommended in the PEP 8 style guide.
+:::
+
+:::{warning} Variable Naming Do's and Don'ts
+👍 Use descriptive variable names and avoid single-letter names unless in a very limited scope. For example, use `user_age` instead of `my_variable15` to improve code clarity.
+
+👎 Avoid using single-letter variable names (like `x`, `y`, `z`) unless they are used in a very limited scope (like in loops or mathematical formulas). Single-letter names do not convey any meaning about the variable's purpose, making the code harder to read and maintain. Instead, use descriptive names that clearly indicate what the variable represents.
+:::
+
 ---
 
 ## ➕ Operators
