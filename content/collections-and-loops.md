@@ -4,7 +4,7 @@ Collections are data structures that can hold multiple items, while loops are us
 
 ![Collections Cover Image](images/collections-cover.jpg)
 
----
+&nbsp;
 
 ## 📝 Lists
 

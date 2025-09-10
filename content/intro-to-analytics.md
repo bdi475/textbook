@@ -4,7 +4,7 @@ Welcome to the world of Data Analytics! In today's data-driven landscape, the ab
 
 ![An abstract sphere](images/analytics-cover.jpg)
 
----
+&nbsp;
 
 ## What is Data Analytics?
 

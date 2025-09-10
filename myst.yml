@@ -25,6 +25,8 @@ project:
     - title: Assignments
       children:
         - file: content/assignments/exercise-02-collections-loops-functions.ipynb
+        - file: content/assignments/exercise-03-functions.ipynb
+        - file: content/assignments/quiz-01-prep.ipynb
   # title:
   # description:
   # keywords: []
