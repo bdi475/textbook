@@ -24,9 +24,11 @@ project:
     - file: content/functions.md
     - title: Assignments
       children:
+        - file: content/assignments/exercise-01-python-basics.ipynb
         - file: content/assignments/exercise-02-collections-loops-functions.ipynb
         - file: content/assignments/exercise-03-functions.ipynb
         - file: content/assignments/quiz-01-prep.ipynb
+        - file: content/assignments/quiz-02-prep.ipynb
   # title:
   # description:
   # keywords: []
