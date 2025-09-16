@@ -22,6 +22,7 @@ project:
     - file: content/collections-and-loops.md
     - file: content/strings.md
     - file: content/functions.md
+    - file: content/intro-to-pandas.ipynb
     - title: Assignments
       children:
         - file: content/assignments/exercise-01-python-basics.ipynb
