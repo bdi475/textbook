@@ -31,6 +31,7 @@ project:
         - file: content/assignments/exercise-03-functions.ipynb
         - file: content/assignments/quiz-01-prep.ipynb
         - file: content/assignments/exercise-04-intro-to-pandas.ipynb
+        - file: content/assignments/exercise-05-pandas-filtering-sorting.ipynb
         - file: content/assignments/quiz-02-prep.ipynb
         - file: content/assignments/problem-set-python-applications.ipynb
   # title:
