@@ -23,6 +23,7 @@ project:
     - file: content/strings.md
     - file: content/functions.md
     - file: content/intro-to-pandas.ipynb
+    - file: content/pandas-filtering-and-sorting.ipynb
     - title: Assignments
       children:
         - file: content/assignments/exercise-01-python-basics.ipynb
