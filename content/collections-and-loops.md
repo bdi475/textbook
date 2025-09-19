@@ -304,6 +304,12 @@ In the @average-of-even-and-odd-numbers-in-a-list code above, we iterate through
 The `range()` function generates a sequence of numbers, which is often used in `for` loops to iterate a specific number of times.
 
 ```python
+print(range(5))  # Output: range(0, 5)
+```
+
+The `range` object above represents a sequence of numbers from 0 to 4 (5 is exclusive). You can convert it to a list to see the actual numbers:
+
+```python
 for i in range(5):
     print(i)
 ```
@@ -318,6 +324,80 @@ Here's the output of the above code:
 3
 4
 ```
+
+We can use the `range()` function to dynamically generate indices for accessing elements in a list.
+
+```python
+majors = ["Accounting", "Finance", "Marketing"]
+
+for i in range(len(majors)):
+    print(majors[i])
+
+# Output:
+# Accounting
+# Finance
+# Marketing
+```
+
+This code iterates through the indices of the `majors` list and prints each major by accessing it using its index. Note that `len(majors)` returns the length of the list, which is 3 in this case, so `range(len(majors))` generates the sequence 0, 1, 2. This code will work for lists of any length, because it dynamically calculates the length of the list.
+
+:::{tip} Why use `range(len(...))`?
+
+The two code snippets below achieve the same result, but they do so in different ways.
+
+**🖥️ Snippet 1 - Use a direct iteration over the list**
+
+```python
+for major in majors:
+    print(major)
+```
+
+**🖥️ Snippet 2 - Use `range(len(...))` to get indices**
+
+```python
+for i in range(len(majors)):
+    print(majors[i])
+```
+
+The first snippet is more Pythonic and easier to read, as it directly iterates over the elements of the list. The second snippet, however, is useful when you need to access the index of each element, for example, if you want to print the index alongside the element or if you need to modify elements in place.
+
+Another reason to use `range(len(...))` is when you need to iterate over multiple lists simultaneously by their indices, or when you need to access elements in a list based on their position. See the example below for a practical use case.
+
+:::
+
+&nbsp;
+
+**🎯 Example: Comparing Two Lists Using Positional Indices**
+
+Imagine you run a small contest where people predict the winners of upcoming games.
+
+You are given two lists: `predicted_winners` and `actual_winners`. Each list contains the predicted and actual winners of a series of games, respectively.
+
+Your task is to compare their values **at each index** using a `for` loop, and count the number of predictions that were correct. A prediction is considered correct if the value at a given index in the `predicted_winners` list matches the value at the same index in the `actual_winners` list. Store the count of correct predictions in a variable called `num_correct`.
+
+You can assume that both lists have the same length (i.e., the same number of elements).
+
+```{code} python
+:label: compare-two-lists
+:caption: Comparing Two Lists Using Positional Indices
+:linenos:
+:emphasize-lines: 4-7
+
+predicted_winners = ["Illinois", "Purdue", "Rutgers", "Washington"]
+actual_winners = ["Illinois", "Indiana", "Maryland", "Washington"]
+
+num_correct = 0
+for i in range(len(predicted_winners)):
+    if predicted_winners[i] == actual_winners[i]:
+        num_correct += 1
+
+print(f"Number of correct predictions: {num_correct}")
+# Output: Number of correct predictions: 2
+```
+
+In @compare-two-lists code above, we iterate through the lists using their indices and compare the values at each index. If the values match, we increment the `num_correct` counter. Finally, we print the total number of correct predictions.
+
+The `+=` operator is a shorthand for incrementing a variable by a certain value. For example, `num_correct += 1` is equivalent to `num_correct = num_correct + 1`. Each time we find a correct prediction, we increase the count by 1 using this shorthand increment operator.
 
 ---
 
