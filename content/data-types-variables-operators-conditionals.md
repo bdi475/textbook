@@ -233,7 +233,37 @@ else:
   print("It's cold outside. Bundle up!")
 ```
 
----
+:::{note} The `elif` and `else` blocks are optional
+
+You can use just an `if` statement without `elif` or `else` if you only need to check one condition. Similarly, you can use `if` with `else` if you want to handle two scenarios (one for when the condition is true and another for when it is false).
+
+**🟢 Valid Example 1: Only `if` Statement**
+
+```python
+# The optional elif and else blocks are omitted
+if city == "Urbana":
+    print("Welcome to Urbana!")
+```
+
+**🟢 Valid Example 2: Only `if` and `else` Statements**
+
+```python
+# The optional elif block is omitted
+if chipotle.is_open():
+    print("Let's get some burritos!")
+else:
+    print("Chipotle is closed. Let's try somewhere else.")
+```
+
+**🔴 Invalid Example: `elif` without `if`**
+
+```python
+elif temperature > 20:
+    # This will raise a SyntaxError because elif must follow an if statement
+    print("The weather is nice and warm.")
+```
+
+:::
 
 ## 📏 Indentation in Python
 
