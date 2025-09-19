@@ -6,11 +6,11 @@ Welcome to the world of Data Analytics! In today's data-driven landscape, the ab
 
 &nbsp;
 
-## What is Data Analytics?
+## 🔍 What is Data Analytics?
 
 Data Analytics is the process of examining, cleaning, transforming, and modeling data to discover useful information, draw conclusions, and support decision-making. It involves using statistical and computational techniques to analyze large datasets and extract meaningful patterns and trends.
 
-### Business Analytics
+### 💼 Business Analytics
 
 Business Analytics is a subset of data analytics that focuses specifically on analyzing business data to improve decision-making and drive business performance. It encompasses a range of techniques, including descriptive, predictive, and prescriptive analytics, to help organizations understand their operations, customers, and market trends.
 
@@ -25,7 +25,7 @@ Business Analytics is a subset of data analytics that focuses specifically on an
 
 ---
 
-## Types of Analytics
+## 📈 Types of Analytics
 
 Data analytics can be categorized into four main types:
 
@@ -41,7 +41,7 @@ In this course, we will primarily **focus on descriptive analytics**, as it form
 
 ---
 
-## Programming Languages for Data Analytics
+## 💻 Programming Languages for Data Analytics
 
 ![Language Question](images/which-lang-for-analytics.jpg)
 
@@ -60,7 +60,7 @@ In this course, we will primarily focus on Python and SQL due to their versatili
 
 ---
 
-## Steps in Working with Data (Data Lifecycle)
+## 🔄 Steps in Working with Data (Data Lifecycle)
 
 The data analytics process typically involves the following steps:
 
@@ -77,7 +77,7 @@ Although these steps are presented in a linear fashion, the data analytics proce
 
 ---
 
-## Types of Data
+## 📂 Types of Data
 
 Data can be classified into several types based on its structure and format:
 
@@ -101,13 +101,13 @@ The categories in the table are useful for understanding data, but in practice d
 
 For example:
 
-**Text + Time Series**: A stream of customer chat logs over days or weeks is both text data (language) and time series data (timestamps).
+**Text + Time Series 📝⏱️**: A stream of customer chat logs over days or weeks is both text data (language) and time series data (timestamps).
 
-**Image + Numerical**: A medical scan is an image, but each pixel is stored as numerical values (e.g., grayscale intensities or RGB values).
+**Image + Numerical 🖼️🔢**: A medical scan is an image, but each pixel is stored as numerical values (e.g., grayscale intensities or RGB values).
 
-**Audio + Time Series**: Sound recordings are audio data, but technically they are sequences of numerical values over time, making them time series too.
+**Audio + Time Series 🎵⏱️**: Sound recordings are audio data, but technically they are sequences of numerical values over time, making them time series too.
 
-**Categorical + Numerical**: Survey responses like income brackets combine categories (low/medium/high) with underlying numerical ranges.
+**Categorical + Numerical 📊🔢**: Survey responses like income brackets combine categories (low/medium/high) with underlying numerical ranges.
 
-**Video = Image + Audio + Time Series**: Video combines moving images (frame by frame), audio tracks, and timestamps — making it a mix of several types.
+**Video = Image + Audio + Time Series 🖼️🎵⏰**: Video combines moving images (frame by frame), audio tracks, and timestamps — making it a mix of several types.
 :::
