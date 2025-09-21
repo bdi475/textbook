@@ -24,6 +24,7 @@ project:
     - file: content/functions.md
     - file: content/intro-to-pandas.ipynb
     - file: content/pandas-filtering-and-sorting.ipynb
+    - file: content/pandas-data-types-column-operations-missing-values.ipynb
     - title: Assignments
       children:
         - file: content/assignments/exercise-01-python-basics.ipynb
