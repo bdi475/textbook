@@ -11,6 +11,21 @@ my_string = "Hello, World!"
 another_string = 'Python is fun!'
 ```
 
+:::{seealso} Triple Quotes for Multi-line Strings
+
+Python also supports triple quotes (`'''` or `"""`) for creating multi-line strings. This is useful for strings that span multiple lines or for including both single and double quotes within the string without needing to escape them.
+
+```python
+multi_line_string = """Hello
+World
+Data
+Rocks!"""
+```
+
+:::
+
+---
+
 ## 🔧 String Operations
 
 ### ➕ Concatenation
@@ -40,9 +55,20 @@ my_string = "BDI 475"
 print(len(my_string))  # Output: 7
 ```
 
+---
+
 ## 🛠️ String Methods
 
 Strings come with a variety of built-in methods that allow you to manipulate and work with them. Here are some commonly used string methods:
+
+- Changing case: `.lower()`, `.upper()`, `.title()`, `.capitalize()`, `.swapcase()`
+- Whitespace removal: `.strip()`, `.lstrip()`, `.rstrip()`
+- Searching: `.find()`, `.index()`, `.count()`
+- Replacing: `.replace()`
+- Splitting and joining: `.split()`, `.join()`
+- Checking properties: `.startswith()`, `.endswith()`, `.isalnum()`, `.isalpha()`, `.isdigit()`
+
+We'll explore a few of these methods with examples.
 
 ### 🔡 `lower()` and 🔠 `upper()`
 
@@ -107,6 +133,8 @@ text = "I love data analytics"
 index = text.find("data")
 print(index)  # Output: 7
 ```
+
+---
 
 ## 📚 Strings as Ordered Collections
 

@@ -30,6 +30,25 @@ print(my_float)
 print(type(my_float))
 ```
 
+:::{note} What are Complex Numbers?
+
+Python also supports complex numbers, which are used in advanced mathematical computations.
+
+Complex numbers are numbers that have both a real part and an imaginary part. They are often used in advanced mathematics, physics, and engineering. Python's built-in `complex` type allows you to work with complex numbers easily.
+
+For example, a complex number can be written as `3 + 4j`, where `3` is the real part and `4j` is the imaginary part. The `j` denotes the imaginary unit, which is the square root of -1.
+
+```python
+z = 3 + 4j      # complex number
+print(z)        # (3+4j)
+print(z.real)   # 3.0
+print(z.imag)   # 4.0
+```
+
+In this course, you will never encounter complex numbers.
+
+:::
+
 ### 🔤 Strings (`str`)
 
 Strings are sequences of characters, used for storing text. You can create them by enclosing characters in either single quotes (`'`) or double quotes (`"`).
@@ -264,6 +283,8 @@ elif temperature > 20:
 ```
 
 :::
+
+---
 
 ## 📏 Indentation in Python
 

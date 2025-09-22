@@ -1,8 +1,19 @@
 # BDI 475 - Introduction to Data Analytics Applications in Business
 
-University of Illinois Urbana-Champaign
+This is the **online textbook** for BDI 475 - Introduction to Data Analytics Applications in Business, a course offered by the University of Illinois Urbana-Champaign. The course is designed to introduce students to the fundamentals of data analytics and its applications in business contexts.
 
-## Learning Objectives
+Please see Canvas for the most up-to-date syllabus, schedule, and assignments.
+
+---
+
+## 👩‍🏫 Authors / Instructors
+
+- [Ye Joo Park](https://giesbusiness.illinois.edu/profile/ye-joo-park) (Fall)
+- [Linden Lu](https://giesbusiness.illinois.edu/profile/zhenzhong-lu) (Spring)
+
+---
+
+## 🎯 Learning Objectives
 
 Upon completing this course, you should be able to…
 
@@ -13,7 +24,9 @@ Upon completing this course, you should be able to…
 - Perform descriptive analytics
 - Present findings effectively
 
-## Course Topics
+---
+
+## 🗂️ Course Topics
 
 - Introduction to Python
 - Working with data using Pandas
@@ -21,7 +34,9 @@ Upon completing this course, you should be able to…
 - Data visualization with Plotly and Tableau
 - Exploratory data analysis
 
-## Prerequisites
+---
+
+## 📋 Prerequisites
 
 - No formal prerequisites are required, though a basic understanding of statistics will be helpful.
 - No programming experience is necessary. This course provides plenty of hands-on coding practice.
