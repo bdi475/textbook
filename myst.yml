@@ -25,6 +25,7 @@ project:
     - file: content/intro-to-pandas.ipynb
     - file: content/pandas-filtering-and-sorting.ipynb
     - file: content/pandas-data-types-column-operations-missing-values.ipynb
+    # - file: content/pandas-missing-values-datetime-aggregation-joins.ipynb
     - title: Assignments
       children:
         - file: content/assignments/exercise-01-python-basics.ipynb
@@ -35,6 +36,7 @@ project:
         - file: content/assignments/exercise-05-pandas-filtering-sorting.ipynb
         - file: content/assignments/quiz-02-prep.ipynb
         - file: content/assignments/problem-set-python-applications.ipynb
+        - file: content/assignments/exercise-06-pandas-working-with-columns-and-missing-values.ipynb
   # title:
   # description:
   # keywords: []
