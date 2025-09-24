@@ -47,6 +47,7 @@ project:
 site:
   template: book-theme
   options:
-    logo: site_images/site_logo.png
+    logo: site_images/site_logo.svg
+    logo_dark: site_images/site_logo.svg
     favicon: site_images/favicon/favicon.ico
     style: media/custom.css
