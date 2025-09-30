@@ -26,7 +26,7 @@ project:
     - file: content/pandas-filtering-and-sorting.ipynb
     - file: content/pandas-data-types-column-operations-missing-values.ipynb
     - file: content/pandas-datetime-aggregation-merges.ipynb
-    # - file: content/pandas-update-cells.ipynb
+    - file: content/pandas-indexing-and-update-cells.ipynb
     - title: Assignments
       children:
         - file: content/assignments/exercise-01-python-basics.ipynb
