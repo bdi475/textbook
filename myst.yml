@@ -26,17 +26,19 @@ project:
     - file: content/pandas-filtering-and-sorting.ipynb
     - file: content/pandas-data-types-column-operations-missing-values.ipynb
     - file: content/pandas-datetime-aggregation-merges.ipynb
+    # - file: content/pandas-update-cells.ipynb
     - title: Assignments
       children:
         - file: content/assignments/exercise-01-python-basics.ipynb
         - file: content/assignments/exercise-02-collections-loops-functions.ipynb
         - file: content/assignments/exercise-03-functions.ipynb
-        - file: content/assignments/quiz-01-prep.ipynb
+        - file: content/assignments/quiz-01-python-basics-prep.ipynb
         - file: content/assignments/exercise-04-intro-to-pandas.ipynb
         - file: content/assignments/exercise-05-pandas-filtering-sorting.ipynb
-        - file: content/assignments/quiz-02-prep.ipynb
+        - file: content/assignments/quiz-02-python-applications-prep.ipynb
         - file: content/assignments/problem-set-python-applications.ipynb
         - file: content/assignments/exercise-06-pandas-working-with-columns-and-missing-values.ipynb
+        - file: content/assignments/quiz-03-vc-exit-prep.ipynb
   # title:
   # description:
   # keywords: []
