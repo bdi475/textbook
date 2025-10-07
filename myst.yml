@@ -28,6 +28,7 @@ project:
     - file: content/pandas-datetime-aggregation-merges.ipynb
     - file: content/pandas-indexing-and-update-cells.ipynb
     - file: content/pandas-string-methods.ipynb
+    - file: content/intro-to-sql.md
     - title: Assignments
       children:
         - file: content/assignments/exercise-01-python-basics.ipynb
