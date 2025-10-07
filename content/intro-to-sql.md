@@ -2,7 +2,7 @@
 
 SQL (**S**tructured **Q**uery **L**anguage) is a powerful language used for interacting with databases. It allows you to perform various operations such as querying data, updating records, and managing database structures.
 
-:::{tip} How do you pronounce SQL?
+:::{tip} How do you pronounce SQL? 🗣️
 
 SQL can be pronounced as "sequel" or by saying each letter individually: "S-Q-L" (pronounced "ess-que-el"). Both pronunciations are widely accepted.
 
@@ -31,7 +31,7 @@ ORDER BY total_expense DESC;
 
 ---
 
-## Different Types of Databases
+## 🧩 Different Types of Databases
 
 There are several types of databases, each with its own features and use cases. Some of the most popular databases include:
 
@@ -122,7 +122,7 @@ If you want to try out columnar databases locally, [DuckDB](https://duckdb.org/)
 
 ---
 
-## Key Features of Relational Databases
+## 🛡️ Key Features of Relational Databases
 
 - **Tables**: Data is organized into tables (relations) with rows and columns.
 - **Schemas**: Each table has a predefined schema that defines the structure and data types of its columns.
@@ -132,7 +132,7 @@ If you want to try out columnar databases locally, [DuckDB](https://duckdb.org/)
 
 ---
 
-## Why Use SQL?
+## 💡 Why Use SQL?
 
 ![Reasons to use SQL over spreadsheets](images/sql/reasons-to-use-sql-over-spreadsheets.jpg)
 
@@ -149,7 +149,7 @@ If you want to try out columnar databases locally, [DuckDB](https://duckdb.org/)
 
 ---
 
-## The History of SQL
+## 📜 The History of SQL
 
 | **Year**  | **Milestone**                         | **Key Contribution**               |
 | --------- | ------------------------------------- | ---------------------------------- |
@@ -200,7 +200,7 @@ For example, the SQL query you write for PostgreSQL will be very similar to the 
 
 ---
 
-## Open-Source vs Proprietary Databases
+## 💼 Open-Source vs Proprietary Databases
 
 **Open-Source** means that the database software's **source code is freely available**. Anyone can use, modify, and distribute it under a permissive license (e.g., MIT, Apache, GPL).
 
@@ -214,7 +214,7 @@ For example, the SQL query you write for PostgreSQL will be very similar to the 
 | **Analytics Integration** | Easy with Python, R, and BI tools | Deep integration with Microsoft / Oracle stack |
 | **Use in Education**      | ✅ Ideal (lightweight, free)      | ❌ Usually expensive to license                |
 
-### Open-Source Software Characteristics
+### 🧪 Open-Source Software Characteristics
 
 ✅ **Advantages:**
 
@@ -235,7 +235,7 @@ Some open-source databases offer paid versions with additional features, enterpr
 - Enterprise-level features (HA, clustering, GUI tools) might need extra setup or third-party add-ons.
 - Limited vendor-backed support unless you buy managed versions (e.g., AWS RDS PostgreSQL).
 
-### Proprietary Software Characteristics
+### 📚 Proprietary Software Characteristics
 
 ✅ **Advantages:**
 
@@ -252,24 +252,24 @@ Some open-source databases offer paid versions with additional features, enterpr
 
 ---
 
-## Key Concepts
+## ✅ Key Concepts
 
-### Databases
+### 🗄️ Databases
 
 A database is a structured collection of tables that store related data. A database management system (DBMS) is software that allows you to create, manage, and interact with databases.
 
-### Tables (Relations)
+### 🧷 Tables (Relations)
 
 A table is a collection of related data organized in rows and columns. Each table has a name and consists of:
 
 - **Rows (Records)**: Each row represents a single entry or record in the table.
 - **Columns (Fields)**: Each column represents a specific attribute or field of the data.
 
-### Schemas
+### 🧾 Schemas
 
 A schema defines the structure of a table, including the names and data types of its columns. It acts as a blueprint for how data is organized within the table.
 
-### Constraints
+### 🔒 Constraints
 
 Constraints are rules applied to table columns to enforce data integrity. Common constraints include:
 
@@ -281,14 +281,14 @@ Constraints are rules applied to table columns to enforce data integrity. Common
 | `UNIQUE`      | Prevents duplicates in a column.                          |
 | `CHECK`       | Enforces valid ranges or conditions (e.g., `amount > 0`). |
 
-### Indexes
+### 📇 Indexes
 
 An index is a special data structure that improves the speed of data retrieval operations on a table. It works like an index in a book, allowing the database to quickly locate rows based on the values in indexed columns.
 
-### Transactions
+### 🔄 Transactions
 
 A transaction is a sequence of one or more SQL operations that are treated as a single unit of work. The single unit must either be fully completed or fully rolled back to maintain data integrity. Transactions follow the ACID properties:
 
-### Views
+### 🖼️ Views
 
 A view is a virtual table that is based on the result set of a SQL query. It allows you to simplify complex queries, encapsulate business logic, and provide a layer of abstraction over the underlying tables. Views do not store data themselves; they dynamically retrieve data from the base tables when queried.
