@@ -44,6 +44,7 @@ project:
         - file: content/assignments/quiz-03-vc-exit-prep.ipynb
         - file: content/assignments/case-study-01-rideshare-vehicles.ipynb
         - file: content/assignments/case-study-02-starbucks-app-customers.ipynb
+        - file: content/assignments/exercise-07-sql-quiz-prep.ipynb
   # title:
   # description:
   # keywords: []
