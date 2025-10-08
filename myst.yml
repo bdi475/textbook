@@ -29,7 +29,7 @@ project:
     - file: content/pandas-indexing-and-update-cells.ipynb
     - file: content/pandas-string-methods.ipynb
     - file: content/intro-to-sql.md
-    - file: content/intro-to-sqlite.ipynb
+    - file: content/basic-queries-in-sqlite.ipynb
     - title: Assignments
       children:
         - file: content/assignments/exercise-01-python-basics.ipynb
