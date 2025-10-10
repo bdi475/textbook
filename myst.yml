@@ -2,8 +2,8 @@
 version: 1
 project:
   id: dccfeee0-7593-41de-abc8-1c5b9cf725fe
-  title: BDI 475
-  description: BDI 475 Lecture Notes
+  title: BDI 475 Textbook
+  description: "BDI 475: Introduction to Data Analytics Applications in Business Online Textbook"
   keywords:
     - bdi475
     - data analytics
