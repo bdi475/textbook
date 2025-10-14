@@ -31,6 +31,7 @@ project:
     - file: content/intro-to-sql.md
     - file: content/basic-queries-in-sqlite.ipynb
     - file: content/sql-aggregations.ipynb
+    - file: content/sql-joins.ipynb
     - title: Assignments
       children:
         - file: content/assignments/exercise-01-python-basics.ipynb
