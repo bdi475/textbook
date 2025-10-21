@@ -207,12 +207,6 @@ While powerful, adopting the cloud introduces new strategic challenges for busin
 
 ---
 
-## ✅ Summary
-
-Cloud computing is a fundamental enabler of modern, scalable, and cost-effective analytics. It provides a comprehensive, end-to-end workflow, supporting everything from raw data ingestion in a data lake to advanced AI models and business-user insights on a BI dashboard. With tools accessible to both highly technical data scientists and code-free business users, the cloud is a key component of any organization's digital transformation and data-driven strategy.
-
----
-
 ## ❓ Discussion Questions
 
 1.  What are the primary trade-offs a company must consider when choosing between IaaS, PaaS, and SaaS solutions?
