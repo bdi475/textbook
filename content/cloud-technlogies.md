@@ -1,6 +1,6 @@
 # Cloud Technologies for Analytics
 
-In modern data analysis, the large amount of data can overwhelm traditional, local or on-premise computing resources. Imagine a company having to buy, install, and maintain its own physical servers in a closet or a private data center. This "on-premise" model requires significant upfront investment, dedicated IT staff for maintenance, physical space, power, and cooling. Any time the company grows, it must repeat a slow procurement cycle to buy more hardware.
+In modern data analysis, the large amount of data can overwhelm traditional, local or on-premise computing resources. Imagine a company having to buy, install, and maintain its own physical servers in a closet or a private data center. This "on-premise" model requires significant upfront investment, dedicated IT staff for maintenance, physical space, power, and cooling. Any time the company grows, it must repeat the slow cycle to buy more hardware.
 
 ![Data Center](images/cloud-technlogies/data-center.jpg)
 
@@ -51,6 +51,14 @@ PaaS offers ready-to-use environments where developers can build, deploy, and ma
 
 **Real-World Example:** A startup building a new mobile app backend can use a PaaS like Heroku. Their developers can write the code in Python or Node.js and deploy it directly from a Git repository. Heroku automatically handles provisioning servers, balancing load, and scaling the application as the number of users grows, allowing the small team to focus on building features, not managing infrastructure.
 
+:::{tip} Database as a Service (DBaaS)
+
+This is another very common model, which is really just a specific type of PaaS.
+
+DBaaS is provides a fully managed database. You don't have to worry about installation, patching, backups, or scaling the server it runs on. You just connect to the database and use it. Amazon RDS, Google Cloud SQL, and Azure Database are all popular DBaaS offerings.
+
+:::
+
 ### ✉️ SaaS - Software as a Service
 
 SaaS delivers complete, ready-to-use software applications over the internet, typically on a subscription basis. This is the most common model and the one you likely use every day. The provider manages everything - the application, the data, the infrastructure. You just log in through a web browser or app and use it.
@@ -58,6 +66,14 @@ SaaS delivers complete, ready-to-use software applications over the internet, ty
 - **Examples:** Power BI Online, Salesforce CRM, Tableau Cloud, Google Workspace (Gmail, Google Docs), Microsoft 365.
 
 **Real-World Example:** A sales team doesn't install Salesforce on its own servers. They simply log in via a web browser to access the powerful CRM platform. All the software updates, security, and database management are handled entirely by Salesforce.
+
+:::{seealso} Function as a Service (FaaS)
+
+Function as a Service is a new player that is considered an evolution of PaaS.
+
+Instead of renting and managing a full-time virtual server (like IaaS), FaaS allows you to upload and run small pieces of code, or "functions", without worrying about any of the underlying infrastructure.
+
+:::
 
 ---
 
@@ -67,11 +83,17 @@ The cloud ecosystem consists of various providers and a vast array of specialize
 
 ### ⚖️ Major vs. Smaller Providers
 
-The cloud market is dominated by three major providers - Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) - which offer hundreds of comprehensive and deeply integrated services. Their strength lies in this vast ecosystem; for example, it's very easy to use AWS's storage service (S3) with its compute service (EC2) and its database service (RDS). This integration can also lead to "vendor lock-in," where it becomes difficult to move to a competitor.
+The cloud market is dominated by three major providers - Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) - which offer hundreds of comprehensive and deeply integrated services. Their strength lies in this vast ecosystem; for example, it's very easy to use AWS's storage service (S3) with its compute service (EC2) and its database service (RDS). This integration can also lead to "vendor lock-in", where it becomes difficult to move to a competitor.
 
-Smaller vendors (like DigitalOcean, Linode, or Vultr) have carved out a niche by focusing on simplicity, predictable pricing, and a better developer experience for core services. They are often ideal for individual developers, startups, and small businesses who don't need the complexity of the major providers.
+Smaller vendors (like DigitalOcean, Linode, or Vultr) focus on simplicity, predictable pricing, and a better developer experience for core services. They are often ideal for individual developers, startups, and small businesses who don't need the complexity of the major providers.
 
-**Real-World Example:** A large enterprise like Johnson & Johnson uses Microsoft Azure for its global operations, leveraging a complex array of services for everything from IoT in its supply chain to AI in its research. In contrast, a solo developer building a personal blog might choose DigitalOcean for its simple, $5/month "Droplet" (a virtual server) with clear, fixed-price billing.
+**Real-World Example:** A large enterprise like Johnson & Johnson uses Microsoft Azure for its global operations, leveraging a complex array of services for everything from IoT in its supply chain to AI in its research.
+
+![Johnson and Johnson Logo](images/cloud-technlogies/johnson-and-johnson-logo.png)
+
+&nbsp;
+
+In contrast, a solo developer building a personal blog might choose DigitalOcean for its simple, $5/month "Droplet" (a virtual server) with clear, fixed-price billing.
 
 ### 📋 Common Service Categories
 
@@ -83,6 +105,14 @@ Across all major providers, you will find equivalent services for core tasks. Un
 | **Storage**             | S3     | Azure Blob Storage | Cloud Storage   | The "filing cabinet"; stores files, images, backups, etc.  |
 | **Serverless Function** | Lambda | Azure Functions    | Cloud Functions | Runs code in response to events, without managing servers. |
 | **Managed Database**    | RDS    | Azure Database     | Cloud SQL       | An organized, high-performance database managed for you.   |
+
+:::{note} Other Service Categories
+
+These are just a few examples! Each cloud provider offers dozens of different services. Beyond the basics, you'll find tools for networking, security, machine learning, data analytics, DevOps, and even serverless computing. We'll discuss some of these later in this chapter. New features and services are added all the time, giving businesses and analysts more flexibility to pick the right tools for their goals.
+
+Understanding the wide range of options helps you see how the cloud supports everything from small startups to global companies.
+
+:::
 
 ---
 
@@ -106,27 +136,30 @@ Two key terms you will encounter in business analytics are "Data Warehouse" and 
 
 - **Data Warehouse:** A data warehouse stores massive amounts of structured, processed data specifically for business intelligence and reporting. The data is cleaned and organized into a predefined schema (like tables in a database) before it is loaded. This is known as "schema-on-write." Think of it as a clean, organized library where all the books are already categorized and shelved, ready for quick lookup.
 - **Data Lake:** A data lake is a vast repository that stores all your data - structured, semi-structured, and unstructured - in its raw, native format. There is no predefined schema. Data is stored first, and processing happens later when an analysis is needed. This is "schema-on-read." Think of it as a giant, unsorted bin of books, documents, and magazines. This flexibility is powerful for data science and machine learning.
-- **The "Data Lakehouse"**: A modern architecture (popularized by platforms like Databricks and Snowflake) that combines the low-cost, flexible storage of a data lake with the powerful management features and query performance of a data warehouse.
 
 **Real-World Example:** A large retail bank might use a Data Warehouse (like Snowflake) to power its daily executive dashboards on loan performance and branch profitability. The same bank might use a Data Lake (built on AWS S3) to store raw, unstructured text from customer service calls and chat logs, which its data scientists can later analyze for sentiment or to identify emerging customer issues.
 
-### 🔌 Data Integration and Transformation (ETL/ELT)
+### 🔌 Data Integration and Transformation
 
 Business analytics relies on data from many different sources (e.g., CRM, sales, marketing).
 
-**ETL (Extract, Transform, Load)** is the traditional process: data is extracted from its source, transformed (cleaned/joined) on a separate server, and then loaded into the data warehouse.
+**ETL (Extract, Transform, Load)**: data is extracted from its source, transformed (cleaned/joined) on a separate server, and then loaded into the data warehouse.
 
 **Real-World Example:** A marketing company uses a SaaS tool like Fivetran for data integration. Fivetran automatically extracts data from all their ad platforms (Google Ads, Facebook Ads) and loads it into their Google BigQuery data warehouse. The company's analytics team can then write SQL queries inside BigQuery to transform that raw data into a single, clean table showing total ad spend and performance across all platforms.
 
 ### ⚡ Serverless Functions
 
-A powerful paradigm in cloud computing is serverless processing, such as AWS Lambda or Google Cloud Functions. Serverless computing allows you to run code without provisioning or managing any servers. It is "event-driven," meaning a function runs only in response to a trigger (like a file upload or an API call). The cloud provider automatically handles scaling, and you are billed only for the milliseconds your code is running.
+A powerful paradigm in cloud computing is serverless processing, such as AWS Lambda or Google Cloud Functions. Serverless computing allows you to run code without provisioning or managing any servers. It is "event-driven", meaning a function runs only in response to a trigger (like a file upload or an API call). The cloud provider automatically handles scaling, and you are billed only for the milliseconds your code is running.
 
-**Real-World Example:** An image-sharing website. When a user uploads a new photo (the "event") to AWS S3 (storage), it automatically triggers an AWS Lambd\* (serverless) function. This function runs for perhaps 500 milliseconds to resize the image into a thumbnail, save the thumbnail back to S3, and update a database record. The company pays only for that half-second of compute, not for a server running 24/7 waiting for uploads.
+**Real-World Example:** A Lambda function can run a Python or SQL script to generate weekly or monthly KPI reports (like revenue by region or customer churn). It might:
+
+- Query a data warehouse (e.g., Snowflake or BigQuery)
+- Create a visualization using Plotly or Matplotlib
+- Email the report or upload it to a dashboard automatically
+
+Teams get up-to-date insights without waiting for someone to run a script manually.
 
 ### 📊 Cloud-Based Analytics and BI Tools
-
-Cloud providers offer a rich set of tools for analysis and visualization:
 
 - **Business Intelligence (Visualization) Services:** These tools allow users to create and share interactive dashboards. Examples include Power BI Cloud, Google Looker Studio, AWS QuickSight, and Tableau Cloud. The primary business advantage is creating a "single source of truth."
 - **Cloud Notebooks:** These are hosted Jupyter-style environments for data science, often pre-configured with popular libraries and integrated with other cloud services. Examples include Jupyter on AWS SageMaker Studio, Google Colab / Vertex AI Workbench, and Deepnote.
@@ -135,7 +168,7 @@ Cloud providers offer a rich set of tools for analysis and visualization:
 
 ### 🤖 Machine Learning and AI Services
 
-The cloud has democratized artificial intelligence. Before the cloud, only giant companies with huge budgets, specialized PhDs, and massive GPU clusters could do ML. Now, any developer can access world-class AI models.
+Before the cloud, only giant companies with huge budgets, specialized PhDs, and massive GPU clusters could do ML. Now, any developer can access world-class AI models.
 
 | Level                   | Description                                                                                                 | Example Use Cases                                            |
 | :---------------------- | :---------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------- |
