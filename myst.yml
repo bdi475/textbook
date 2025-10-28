@@ -34,6 +34,7 @@ project:
     - file: content/sql-joins.ipynb
     - file: content/cloud-technlogies.md
     - file: content/modern-techniques.md
+    - file: content/more-database-concepts.md
     - title: Assignments
       children:
         - file: content/assignments/exercise-01-python-basics.ipynb
