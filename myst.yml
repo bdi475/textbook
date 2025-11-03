@@ -51,6 +51,10 @@ project:
         - file: content/assignments/case-study-01-rideshare-vehicles.ipynb
         - file: content/assignments/case-study-02-starbucks-app-customers.ipynb
         - file: content/assignments/exercise-07-sql-quiz-prep.ipynb
+        - file: content/assignments/case-study-03-airbnb-listings-sql.ipynb
+        - file: content/assignments/exercise-08-intro-to-dataviz.ipynb
+        - file: content/assignments/exercise-09-line-scatter-bar-plots.ipynb
+        - file: content/assignments/case-study-04-rideshare-trips.ipynb
   # title:
   # description:
   # keywords: []
