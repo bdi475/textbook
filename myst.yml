@@ -36,6 +36,7 @@ project:
     - file: content/modern-techniques.md
     - file: content/more-database-concepts.md
     - file: content/intro-to-dataviz.ipynb
+    - file: content/more-plotly-visualizations.ipynb
     - title: Assignments
       children:
         - file: content/assignments/exercise-01-python-basics.ipynb
