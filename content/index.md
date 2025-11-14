@@ -1,15 +1,19 @@
 # BDI 475 - Introduction to Data Analytics Applications in Business
 
-This is the **online textbook** for BDI 475 - Introduction to Data Analytics Applications in Business, a course offered by the University of Illinois Urbana-Champaign. The course is designed to introduce students to the fundamentals of data analytics and its applications in business contexts.
+- University of Illinois Urbana-Champaign
+- Gies College of Business
+
+This is the online textbook for BDI 475 - Introduction to Data Analytics Applications in Business, a course offered by the University of Illinois Urbana-Champaign. The course is designed to introduce students to the fundamentals of data analytics and its applications in business contexts.
+
+```{image} ../site_images/bdi475_favicon.svg
+:alt: BDI 475 Circle
+:width: 320px
+:align: center
+```
+
+&nbsp;
 
 Please see Canvas for the most up-to-date syllabus, schedule, and assignments.
-
----
-
-## 👩‍🏫 Authors / Instructors
-
-- [Ye Joo Park](https://giesbusiness.illinois.edu/profile/ye-joo-park) (Fall)
-- [Linden Lu](https://giesbusiness.illinois.edu/profile/zhenzhong-lu) (Spring)
 
 ---
 
@@ -44,28 +48,59 @@ Upon completing this course, you should be able to…
 
 ---
 
+## 👩‍🏫 Authors / Instructors
+
+::::{grid} 1 1 2 2
+
+:::{card}
+:header: [Ye Joo Park](https://giesbusiness.illinois.edu/profile/ye-joo-park) (Fall Sections) 👨‍🔬
+
+![Ye Joo Park](images/index/ypark32.jpg)
+
+:::
+
+:::{card}
+:header: [Linden Lu](https://giesbusiness.illinois.edu/profile/zhenzhong-lu) (Spring Sections) 👨‍💻
+
+![Linden Lu](images/index/zllu2.jpg)
+
+:::
+
+::::
+
+---
+
 ## ⚖️ License
 
 This textbook is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
-### 📗 Permissions
+::::{grid} 1 1 2 3
 
-- 🟢 Commercial use
-- 🟢 Distribution
-- 🟢 Modification
-- 🟢 Private use
+:::{card}
+:header: 📗 Permissions
 
-### 📘 Conditions
+- Commercial use
+- Distribution
+- Modification
+- Private use
+  :::
 
-- 🔵 License and copyright notice
-- 🔵 State changes
+:::{card}
+:header: 📘 Conditions
 
-### 📕 Limitations
+- License and copyright notice
+- State changes
+  :::
 
-- 🔴 Liability
-- 🔴 Patent use
-- 🔴 Trademark use
-- 🔴 Warranty
+:::{card}
+:header: 📕 Limitations
+
+- Liability
+- Patent use
+- Trademark use
+- Warranty
+  :::
+  ::::
 
 :::{warning} Commercial Use of Datasets
 

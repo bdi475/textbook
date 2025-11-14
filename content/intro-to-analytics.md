@@ -29,15 +29,40 @@ Business Analytics is a subset of data analytics that focuses specifically on an
 
 Data analytics can be categorized into four main types:
 
-1. **Descriptive Analytics**: This type of analytics focuses on summarizing historical data to understand what has happened in the past. It uses techniques such as data aggregation and data mining to provide insights into past performance.
+::::{grid} 1 1 2 2
 
-2. **Diagnostic Analytics**: Diagnostic analytics goes a step further than descriptive analytics by examining data to determine why something happened. It involves techniques such as drill-down, data discovery, and correlations to identify the root causes of past events.
+:::{card}
+:header: **1. Descriptive Analytics** 📚
+:footer: _What happened?_ (Past)
+This type of analytics focuses on summarizing historical data to understand what has happened in the past. It uses techniques such as data aggregation and data mining to provide insights into past performance.
+:::
 
-3. **Predictive Analytics**: Predictive analytics uses statistical models and machine learning algorithms to analyze historical data and make predictions about future events. It helps organizations anticipate trends, customer behavior, and potential risks.
+:::{card}
+:header: **2. Diagnostic Analytics** 🕵️‍♂️
+:footer: _Why did it happen?_ (Past)
+Diagnostic analytics goes a step further than descriptive analytics by examining data to determine why something happened. It involves techniques such as drill-down, data discovery, and correlations to identify the root causes of past events.
+:::
 
-4. **Prescriptive Analytics**: Prescriptive analytics goes a step further by recommending actions based on the insights gained from descriptive and predictive analytics. It uses optimization and simulation techniques to suggest the best course of action for achieving desired outcomes.
+:::{card}
+:header: **3. Predictive Analytics** 🔮
+:footer: _What will happen?_ (Future)
+Predictive analytics uses statistical models and machine learning algorithms to analyze historical data and make predictions about future events. It helps organizations anticipate trends, customer behavior, and potential risks.
+:::
+
+:::{card}
+:header: **4. Prescriptive Analytics** 🪄
+:footer: _What to do?_ (Future actions)
+Prescriptive analytics goes a step further by recommending actions based on the insights gained from descriptive and predictive analytics. It uses optimization and simulation techniques to suggest the best course of action for achieving desired outcomes.
+:::
+::::
 
 In this course, we will primarily **focus on descriptive analytics**, as it forms the foundation for understanding data and making informed decisions.
+
+:::{seealso} Where did this categorization come from?
+
+This categorization did not come from a single source, although it was popularized by Gartner and has been widely adopted in the industry.
+
+:::
 
 ---
 

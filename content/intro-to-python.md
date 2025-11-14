@@ -88,21 +88,27 @@ Python's power comes from its huge ecosystem of libraries and frameworks:
 - **Python** dominates in data analytics, AI, and backend web development (e.g., Django, Flask).
 - Both have vibrant ecosystems, but they serve slightly different purposes.
 
----
+::::{grid} 1 1 2 2
 
-## 💪 Strengths of Python
+:::{card}
+:header: **💪 Strengths of Python**
 
 - Easy to learn and beginner-friendly.
 - Extremely versatile and widely adopted.
 - Huge community support and rich ecosystem.
 - Strong presence in cutting-edge fields like AI and data science.
+  :::
 
-## ⚠️ Limitations of Python
+:::{card}
+:header: **⚠️ Limitations of Python**
 
 - Slower than compiled languages (C, C++).
 - Not ideal for mobile app development.
 - Dynamic typing can lead to runtime errors if not carefully managed.
 - High memory usage compared to lower-level languages.
+  :::
+
+::::
 
 ---
 

@@ -69,5 +69,5 @@ site:
   options:
     logo: site_images/site_logo.svg
     logo_dark: site_images/site_logo.svg
-    favicon: site_images/favicon/favicon.ico
+    favicon: site_images/bdi475_favicon.svg
     style: media/custom.css
