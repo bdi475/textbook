@@ -10,6 +10,7 @@ project:
     - business analytics
     - jupyter-book
   github: bdi475/textbook
+  license: CC-BY-4.0
   toc:
     - file: content/index.md
     - title: Tools Used in This Course
