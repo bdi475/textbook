@@ -48,19 +48,19 @@ Upon completing this course, you should be able to…
 
 This textbook is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
-### Permissions
+### 📗 Permissions
 
 - 🟢 Commercial use
 - 🟢 Distribution
 - 🟢 Modification
 - 🟢 Private use
 
-### Conditions
+### 📘 Conditions
 
 - 🔵 License and copyright notice
 - 🔵 State changes
 
-### Limitations
+### 📕 Limitations
 
 - 🔴 Liability
 - 🔴 Patent use
