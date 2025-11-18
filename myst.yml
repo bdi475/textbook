@@ -38,6 +38,7 @@ project:
     - file: content/more-database-concepts.md
     - file: content/intro-to-dataviz.ipynb
     - file: content/more-plotly-visualizations.ipynb
+    - file: content/nlp-with-mastercard-glassdoor-reviews.ipynb
     - title: Assignments
       children:
         - file: content/assignments/exercise-01-python-basics.ipynb

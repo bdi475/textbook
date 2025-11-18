@@ -84,17 +84,39 @@ Modern data warehouses like **Snowflake**, **Amazon Redshift**, and **Google Big
 
 For decades, the dominant database model has been the **Relational Database Management System (RDBMS)**. The language used to communicate with these databases is **SQL (Structured Query Language)**. This is still the most common type of database an analyst will encounter. Unless you have a specific reason to use something else, SQL databases are the default choice.
 
-### Model
+### 🏗️ Model
 
 Data is stored in highly structured tables (rows and columns) with predefined relationships between them (e.g., a `CustomerID` in the `Customers` table links to the `Orders` table).
 
 - **Schema:** The most important concept in an RDBMS is its **schema**. The schema is a strict blueprint that defines all tables, columns, and data types (e.g., `SaleAmount` must be a `DECIMAL(10,2)`) **before** any data is written. This is known as **schema-on-write**.
-- **Key Feature (ACID):** Relational databases are built for reliability and consistency, guaranteed by **ACID compliance**:
-  - **A**tomicity: An entire transaction (like a bank transfer) either succeeds completely or fails entirely.
-  - **C**onsistency: The data is always in a valid, logical state.
-  - **I**solation: Concurrent transactions do not interfere with each other.
-  - **D**urability: Once data is saved, it is saved permanently.
-- **Examples:** Microsoft SQL Server, Oracle, MySQL, PostgreSQL.
+- **Key Feature (ACID):** Relational databases are built for reliability and consistency, guaranteed by **ACID compliance**.
+- **Examples:** Microsoft SQL Server, Oracle Database, MySQL, PostgreSQL.
+
+### ⚖️ ACID Properties
+
+::::{grid} 1 1 2 3
+
+:::{card}
+:header: 💣 **A**tomicity
+An entire transaction (like a bank transfer) either succeeds completely or fails entirely.
+:::
+
+:::{card}
+:header: 📏 **C**onsistency
+The data is always in a valid, logical state.
+:::
+
+:::{card}
+:header: 🧱 **I**solation
+Concurrent transactions do not interfere with each other.
+:::
+
+:::{card}
+:header: 🔐 **D**urability
+Once data is saved, it is saved permanently.
+:::
+
+::::
 
 ### 🔗 Relationships and Joins
 
@@ -127,9 +149,9 @@ Indexes work like a book's table of contents: they let the database find rows fa
 
 In the 2000s, the web exploded. Companies like Google, Amazon, and Facebook faced data challenges that the traditional relational model couldn't handle, often defined by the "3 Vs":
 
-- **Volume:** Unprecedented amounts of data.
-- **Velocity:** Data arriving at incredible speed (clicks, sensor data, social media posts).
-- **Variety:** Data was no longer neat and structured. It was messy, semi-structured, or unstructured (JSON files, logs, user comments, images).
+1. **Volume:** Unprecedented amounts of data.
+2. **Velocity:** Data arriving at incredible speed (clicks, sensor data, social media posts).
+3. **Variety:** Data was no longer neat and structured. It was messy, semi-structured, or unstructured (JSON files, logs, user comments, images).
 
 This led to the creation of **NoSQL ("Not Only SQL")** databases, a family of non-relational databases built for flexibility and massive scale.
 
