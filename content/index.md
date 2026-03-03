@@ -48,7 +48,7 @@ Upon completing this course, you should be able to…
 
 ---
 
-## 👩‍🏫 Authors / Instructors
+## 👩‍🏫 Instructors
 
 ::::{grid} 1 1 2 2
 
