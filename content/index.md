@@ -48,21 +48,14 @@ Upon completing this course, you should be able to…
 
 ---
 
-## 👩‍🏫 Instructors
+## 👩‍🏫 Author
 
 ::::{grid} 1 1 2 2
 
 :::{card}
-:header: [Ye Joo Park](https://giesbusiness.illinois.edu/profile/ye-joo-park) (Fall Sections) 👨‍🔬
+:header: [Ye Joo Park](https://giesbusiness.illinois.edu/profile/ye-joo-park) 👨‍🔬
 
 ![Ye Joo Park](images/index/ypark32.jpg)
-
-:::
-
-:::{card}
-:header: [Linden Lu](https://giesbusiness.illinois.edu/profile/zhenzhong-lu) (Spring Sections) 👨‍💻
-
-![Linden Lu](images/index/zllu2.jpg)
 
 :::
 

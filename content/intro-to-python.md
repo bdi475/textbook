@@ -222,7 +222,7 @@ my_dict = {
 }
 ```
 
-Python doesn't care about the spacing between keys, colons, and values — the meaning stays the same.
+Python doesn't care about the spacing between keys, colons, and values; the meaning stays the same.
 
 For best practices on code style, refer to the [PEP 8 - Style Guide for Python Code](https://peps.python.org/pep-0008/). PEP 8 is the de facto code style guide for Python, and it is widely adopted by the Python community.
 

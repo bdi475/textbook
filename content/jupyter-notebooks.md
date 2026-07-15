@@ -62,7 +62,7 @@ The Jupyter Notebook interface operates as a Read-Eval-Print Loop (REPL). REPL i
 2. **Eval**: The input is evaluated by the interpreter. In this case, it executes the expression `3 + 20`.
 3. **Print**: The result of evaluation (`23`) is printed back to the user.
 
-This is why when you open a Python shell, you can type a command, see the result immediately, and continue typing more commands interactively — it's the REPL cycle at work.
+This is why when you open a Python shell, you can type a command, see the result immediately, and continue typing more commands interactively. That's the REPL cycle at work.
 
 ```{image} images/how-jupyter-runs-your-code.jpg
 :alt: How does Jupyter Notebooks Run Code?
@@ -71,7 +71,7 @@ This is why when you open a Python shell, you can type a command, see the result
 
 &nbsp;
 
-The underlying process for a Jupyter Notebook environment is REPL-based — just separated into a client (browser interface) and a backend (kernel).
+The underlying process for a Jupyter Notebook environment is REPL-based, just separated into a client (browser interface) and a backend (kernel).
 
 1. **JupyterLab in Browser**: A user runs a code cell inside the Jupyter Notebook (`.ipynb`).
 2. **Input**: The content of the cell (e.g., `print(3 + 20)`) is sent to the backend.
