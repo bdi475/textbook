@@ -86,7 +86,7 @@ In simple terms, a variable is simply a nickname for a stored value that can _ch
 
 ### ❓ Why do we use variables?
 
-If you have a value that changes often and is used in many different parts of a program, maintaining your code can become difficult—you would need to manually update every instance of that value. Instead, by creating a variable and referencing it, you only need to update the variable once, and every reference will use the updated value.
+If you have a value that changes often and is used in many different parts of a program, maintaining your code can become difficult, since you would need to manually update every instance of that value. Instead, by creating a variable and referencing it, you only need to update the variable once, and every reference will use the updated value.
 
 Variables also improve **readability** when used properly. For example, imagine you want to calculate the after-tax price (at a tax rate of 10%) of an item that costs 2 dollars. In Python, you could write this as `2 * 1.10`. While you might understand what the numbers mean, others may find it confusing. Rewriting it as `before_tax_price * (1 + tax_rate)` makes your code much clearer and easier to read.
 

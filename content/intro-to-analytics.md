@@ -134,5 +134,5 @@ For example:
 
 **Categorical + Numerical 📊🔢**: Survey responses like income brackets combine categories (low/medium/high) with underlying numerical ranges.
 
-**Video = Image + Audio + Time Series 🖼️🎵⏰**: Video combines moving images (frame by frame), audio tracks, and timestamps — making it a mix of several types.
+**Video = Image + Audio + Time Series 🖼️🎵⏰**: Video combines moving images (frame by frame), audio tracks, and timestamps, making it a mix of several types.
 :::
